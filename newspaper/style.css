@@ -1,0 +1,230 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 90%;
+	margin: auto;
+}
+
+.news-link{
+     background-color: #000;
+     color: #fff;
+     text-align: center;
+     width: 15%;
+     margin-top: 20px;
+     margin-left: 30px;
+     padding: 9px;
+
+}
+
+.span1{
+	color: teal;
+	font-size: 150px;
+	font-weight: 400;
+	font-family: 'Roboto slab',sans-serif;
+}
+
+
+
+.span2{
+	font-size: 150px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.caption{
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 3px;
+	font-style: italic;
+	letter-spacing: 2px;
+	width: 85%;
+	margin: auto;
+	margin-bottom: 5px;
+}
+
+
+.edition{
+	float: right;
+}
+
+
+.hr1{
+	margin-top:35px;
+}
+
+
+
+
+.date{
+	margin-top: 10px;
+}
+
+
+
+
+h1{
+	font-size: 200px;
+	text-align: center;
+	font-weight: 300px;
+	margin-top: 0;
+	text-transform: uppercase;
+	font-family: 'hammersmith one', open sans-serif;
+}
+
+.main{
+     display: flex;
+     justify-content: space-between;
+  }
+
+
+.first-container{
+	flex:0 0 40%;
+	background-color: white;
+	color:#20b2aa;
+	border-right: 2px solid black;
+
+}
+
+.second-container{
+
+	flex: 0 0 55%;
+	color: #2f4f4f;
+	flex-wrap: wrap;
+
+}
+
+
+
+.subtopic{
+	padding: 20px;
+	width: 98%;
+}
+
+
+
+.image{
+	background-color: #2f4f4f;
+	width: 100%;
+	height: 40%;
+}
+
+
+.image-container{
+	display: flex;
+	margin-top: 20px;
+}
+
+
+.image1{
+	flex: 0 0 40%;
+	height: 350px
+}
+
+
+
+.bottom-line{
+	border-top:2px solid #000;
+	margin-top:7px;
+	margin-bottom: 10%;
+}
+
+
+.page-no{
+	float: right;
+	background-color: #000;
+	color: #fff;
+
+}
+
+
+
+div a{
+	text-decoration: none;
+	color: #20b2aa;
+}
+
+
+
+.subtopic:hover{
+	border-bottom: 2px solid #2f4f4f;
+
+}
+
+
+.subscribe-form{
+	height: 500px;
+	width: 700px;
+	margin: auto;
+	margin-bottom: 10%;
+	display: flex;
+}
+
+
+h3		{
+
+	text-align:center; 
+	text-transform:uppercase;
+	padding-bottom:10px; 
+	font-size:20px;
+}
+
+.form-image{
+        flex: 0 0 50%;
+          background-color: white;
+}
+
+
+
+.form{
+	width: 50%;
+	text-align: center;
+	background:rgba(0,0,0,0.5)  
+}
+
+
+form{
+	margin-top: 25px;
+	font-family: georgia;
+
+}
+
+
+input,button{
+	padding: 10px 25px;
+	border-radius: 10px;
+	border: 2px solid teal;
+}
+
+input[type=text]:focus{
+	border- color: #228b22;
+	outline: none;
+}
+
+
+input[type=email]:focus{
+	border- color: #228b22;
+	outline: none;
+}
+
+
+
+button{
+	color: #228b22;
+	cursor: pointer;
+	padding: 15px 25px;
+	font -size: 15px;
+	border- color: teal;
+}
+
+
+button:hover{
+	background-color: teal;
+	color: #fff;
+}
+
+
